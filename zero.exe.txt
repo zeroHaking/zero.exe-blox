@@ -1,33 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@zeroHaking
-zeroHaking /
-zero.exe-blox
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-zero.exe-blox/zero.exe.txt
-@zeroHaking
-zeroHaking Update zero.exe.txt
-Latest commit 5254fed Dec 3, 2022
-History
-1 contributor
-2262 lines (1944 sloc) 76.1 KB
 --[[
 	ui-engine-v2
 	version 1.3a
@@ -2060,12 +2030,11 @@ do -- Example UI
 		can_resize = true,
 	})
 	local Tab = Window:AddTab("NEW LIST")
-furk ultra
-furk ultra
+
 	do -- Elements
 	
-	Tab:AddLabel("Thanks For Using zero.exe!")
-	Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
+		Tab:AddLabel("Thanks For Using zero.exe!")
+		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 
 		
 						Tab:AddButton("Whale Hub", function()
@@ -2251,10 +2220,10 @@ for _,v in next, workspace:GetDescendants() do
     end
 end
 		end)
-        Tab:AddButton("NEW - Get Confetti", function()
-_G.AutoConfetti = true
+                Tab:AddButton("NEW - Get Confetti", function()
+        _G.AutoConfetti = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Confetti"))()
-        end)
+                end)
 		Tab:AddButton("NEW - Ripper Hub V3", function()
 _G.Version = "V3" -- V2 or V3
 loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))();
@@ -2291,19 +2260,3 @@ end
 	Tab:Show()
 	library:FormatWindows()
 end
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
