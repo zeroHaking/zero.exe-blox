@@ -2220,6 +2220,10 @@ for _,v in next, workspace:GetDescendants() do
     end
 end
 		end)
+        Tab:AddButton("NEW - Get Confetti", function()
+_G.AutoConfetti = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Confetti"))()
+        end)
 		Tab:AddButton("NEW - Ripper Hub V3", function()
 _G.Version = "V3" -- V2 or V3
 loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))();
