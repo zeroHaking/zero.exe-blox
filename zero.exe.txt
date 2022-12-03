@@ -1,3 +1,33 @@
+
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@zeroHaking
+zeroHaking /
+zero.exe-blox
+Public
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+zero.exe-blox/zero.exe.txt
+@zeroHaking
+zeroHaking Update zero.exe.txt
+Latest commit 5254fed Dec 3, 2022
+History
+1 contributor
+2262 lines (1944 sloc) 76.1 KB
 --[[
 	ui-engine-v2
 	version 1.3a
@@ -2030,7 +2060,8 @@ do -- Example UI
 		can_resize = true,
 	})
 	local Tab = Window:AddTab("NEW LIST")
-
+furk ultra
+furk ultra
 	do -- Elements
 	
 	Tab:AddLabel("Thanks For Using zero.exe!")
@@ -2071,7 +2102,7 @@ end
 	local Tab = Window:AddTab("List 4")
 
 	do -- Elements
-		Tab:AddLabel("Thanks For Using Furk Ultra!")
+		Tab:AddLabel("Thanks For Using zero.exe!")
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 		
 								Tab:AddButton("Putaya Hub", function()
@@ -2108,7 +2139,7 @@ end
 	local Tab = Window:AddTab("List 3")
 
 	do -- Elements
-		Tab:AddLabel("Thanks For Using Furk Ultra!")
+		Tab:AddLabel("Thanks For Using zero.exe!")
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 		
 						Tab:AddButton("MrMaxNaja Hub", function()
@@ -2144,7 +2175,7 @@ end
 	local Tab = Window:AddTab("List 2")
 
 	do -- Elements
-		Tab:AddLabel("Thanks For Using Furk Ultra!")
+		Tab:AddLabel("Thanks For Using zero.exe!")
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 		
 				Tab:AddButton("String Hub ", function()
@@ -2180,7 +2211,7 @@ end
 local Tab = Window:AddTab("Main GUIs")
 
 	do -- Elements
-		Tab:AddLabel("Thanks For Using Furk Ultra!")
+		Tab:AddLabel("Thanks For Using zero.exe!")
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 		
 
@@ -2260,3 +2291,19 @@ end
 	Tab:Show()
 	library:FormatWindows()
 end
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
