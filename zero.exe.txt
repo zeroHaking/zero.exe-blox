@@ -2025,7 +2025,7 @@ end
 do -- Example UI
 	local Window = library:AddWindow("zero.exe - Blox Fruits", {
 		main_color = Color3.fromRGB(0, 0, 0),
-		min_size = Vector2.new(372, 392),
+		min_size = Vector2.new(366, 386),
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true,
 	})
@@ -2220,13 +2220,9 @@ for _,v in next, workspace:GetDescendants() do
     end
 end
 		end)
-                 Tab:AddButton("NEW - Chest farm (sppeded)")
+                Tab:AddButton("NEW - Chest farm {speeded}", function()
         _G.AutoConfetti = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-        end)
-                Tab:AddButton("NEW - Get Confetti", function()
-        _G.AutoConfetti = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Confetti"))()
                 end)
 		Tab:AddButton("NEW - Ripper Hub V3", function()
 _G.Version = "V3" -- V2 or V3
